@@ -58,7 +58,7 @@
                                     initSecondchart('#chartB',secondData.seriesData(),secondData.axisLabel())
                                 });
 
-                                alert('Category: ' + this.category + ', value: ' + this.y);
+                                //alert('Category: ' + this.category + ', value: ' + this.y);
                             }
                         }
                     }
@@ -130,7 +130,7 @@
                                     console.log(response.result);
                                 });
 
-                                alert('Category: ' + this.category + ', value: ' + this.y);
+                                //alert('Category: ' + this.category + ', value: ' + this.y);
                             }
                         }
                     }
