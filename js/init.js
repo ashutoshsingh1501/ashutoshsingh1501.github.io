@@ -9,8 +9,6 @@
         initChart('#chartA',seriesData.seriesData(),seriesData.axisLabel());
     })
 
-
-
     function initChart(id,seriesData,axisLabel){
         $(id).highcharts({
             chart: {
@@ -46,7 +44,6 @@
                         enabled: true
                     }
                 },
-
                 series: {
                     cursor: 'pointer',
                     point: {
@@ -57,13 +54,11 @@
                                     var secondData = evaluateChartData(response.result);
                                     initSecondchart('#chartB',secondData.seriesData(),secondData.axisLabel())
                                 });
-
                                 //alert('Category: ' + this.category + ', value: ' + this.y);
                             }
                         }
                     }
                 }
-
             },
             legend: {
                 enabled:false,
@@ -85,6 +80,7 @@
             }]
         });
     }
+
     function initSecondchart(id,seriesData,axisLabel){
         $(id).highcharts({
             chart: {
@@ -97,7 +93,7 @@
                 enabled: false
             },
             title: {
-                text: "drugs causing Nausea"
+                text: "Drugs causing Nausea"
             },
             xAxis: {
                 categories: axisLabel,
@@ -120,7 +116,6 @@
                         enabled: true
                     }
                 },
-
                 series: {
                     cursor: 'pointer',
                     point: {
@@ -130,13 +125,11 @@
                                     initLastChart('#chartC',response.result);
                                     console.log(response.result);
                                 });
-
                                 //alert('Category: ' + this.category + ', value: ' + this.y);
                             }
                         }
                     }
                 }
-
             },
             legend: {
                 enabled: false,
@@ -158,6 +151,7 @@
             }]
         });
     }
+
     function initLastChart(id,data){
         $(id).highcharts({
             chart: {
@@ -174,7 +168,7 @@
                     allowPointSelect: true,
                     cursor: 'pointer',
                     dataLabels: {
-                        enabled: true,
+                        enabled: false,
                         format: '<b>{point.name}</b>: {point.percentage:.1f} %',
                         style: {
                             color: (Highcharts.theme && Highcharts.theme.contrastTextColor) || 'black'
@@ -207,9 +201,6 @@
             }
         };
         return chartData;
-
     }
-
-
 })();
 
