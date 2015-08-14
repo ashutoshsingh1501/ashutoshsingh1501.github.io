@@ -66,6 +66,7 @@
 
             },
             legend: {
+                enabled:false,
                 layout: 'vertical',
                 align: 'right',
                 verticalAlign: 'top',
@@ -138,6 +139,7 @@
 
             },
             legend: {
+                enabled: false,
                 layout: 'vertical',
                 align: 'right',
                 verticalAlign: 'top',
@@ -179,6 +181,9 @@
                         }
                     }
                 }
+            },
+            credits: {
+                enabled: false
             },
             series: [{
                 name: "Brands",
