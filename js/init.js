@@ -187,12 +187,12 @@
         var chartData = {
             axisLabel:function(){
                 return _.map(module,function(val){
-                    return val.name;
+                    return val.results.term;
                 });
             },
             seriesData:function(){
                 return _.map(module,function(val){
-                    return val.count;
+                    return val.results.count;
                 });
             }
         };
