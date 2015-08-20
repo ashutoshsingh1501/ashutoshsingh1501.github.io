@@ -3,7 +3,7 @@
     ctx.fetch = function(url,success) {
         $.ajax({
             dataType: "json",
-            url: 'data/'+ url +'.json',
+            url: url,
             success: success
         });
     }
