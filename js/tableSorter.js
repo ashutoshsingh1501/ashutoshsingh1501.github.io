@@ -85,13 +85,13 @@ function toggleChecked(node) {
 
 function logSelectedData(node) {
     if (node.checked === true) {
-        console.log(node.parentElement.parentElement.children[1].innerText + " selected.");
+        console.log(node.parentElement.parentElement.children[1].innerHTML + " selected.");
 
 //        var jsonString = "{";
 //        var childCount = node.parentElement.parentElement.childElementCount;
 //        for (var i = 1; i < childCount; i++) {
 //            var key = i === 1 ? "'country'" : (i === 2) ? "'area'" : "'population'";
-//            jsonString += key + ":'" + node.parentElement.parentElement.children[i].innerText + "'";
+//            jsonString += key + ":'" + node.parentElement.parentElement.children[i].innerHTML + "'";
 //            if (i < 3)
 //                jsonString += ",";
 //        }
@@ -108,7 +108,7 @@ function logData() {
             jsonString += "{";
             for (var j = 1; j < 4; j++) {
                 var key = j === 1 ? "\"country\"" : (j === 2) ? "\"area\"" : "\"population\"";
-                jsonString += key + ":\"" + rows[i].children[j].innerText + "\"";
+                jsonString += key + ":\"" + rows[i].children[j].innerHTML + "\"";
                 if (j < 3)
                     jsonString += ",";
             }
