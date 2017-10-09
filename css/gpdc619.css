@@ -328,7 +328,7 @@ label.error{
 .bg-orange{
     background: #ffa708 !important
 }
-.india_cocoa_img {
+.bg-cocoa {
     background-image: url(../img/backgrounds/bg-cocoa.jpg);
     background-size: cover;
     background-position: center;
