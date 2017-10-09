@@ -328,7 +328,7 @@ label.error{
 .bg-orange{
     background: #ffa708 !important
 }
-.bg-cocoa {
+.bg-cocoa{
     background-image: url(../img/backgrounds/bg-cocoa.jpg);
     background-size: cover;
     background-position: center;
@@ -363,7 +363,7 @@ label.error{
     .navbar-nav>li>a {
         padding: 17px 0 15px 15px;
     }
-    .abt_col, .india_cocoa_img {
+    .abt_col, .bg-cocoa {
         height: 613px;
     }
 }
@@ -381,22 +381,22 @@ label.error{
     #products .feature-body li{
         list-style: none;
     }
-    .abt_col, .india_cocoa_img {
+    .abt_col, .bg-cocoa {
         height: 600px;
     }
 }
 @media only screen and (max-width: 868px){
-    .abt_col, .india_cocoa_img {
+    .abt_col, .bg-cocoa {
         height: 640px;
     }
 }
 @media only screen and (max-width: 868px){
-    .abt_col, .india_cocoa_img {
+    .abt_col, .bg-cocoa {
         height: 640px;
     }
 }
 @media only screen and (max-width: 830px){
-    .abt_col, .india_cocoa_img {
+    .abt_col, .bg-cocoa {
         height: 666px;
     }
 }
@@ -404,7 +404,7 @@ label.error{
     #about .col-sm-6{
         width: 100%;
     }
-    .india_cocoa_img {
+    .bg-cocoa {
         width: 100%;
         height: 375px;
     }
@@ -419,7 +419,7 @@ label.error{
 
 
 @media only screen and (max-width: 768px){
-    .india_cocoa_img{
+    .bg-cocoa{
         padding: 0;
     }
     /*.bg-icon{
