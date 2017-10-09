@@ -329,7 +329,7 @@ label.error{
     background: #ffa708 !important
 }
 .bg-cocoa{
-    background-image: url(../img/backgrounds/bg-cocoa.jpg);
+    background-image: url(../img/backgrounds/bg-cocoa-min.jpg);
     background-size: cover;
     background-position: center;
 }
