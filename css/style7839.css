@@ -1077,8 +1077,8 @@ p {
     color: #aeaeae;
 }
 h6 {
-    font:300 13px/25px 'Vodafone Rg', sans-serif;
-    color: #aeaeae;
+    font:300 15px/25px 'Vodafone Rg', sans-serif;
+    color: #fdfaf0;
 }
 h5 {
     font:300 20px/32px 'Vodafone Rg', sans-serif;
@@ -1669,4 +1669,8 @@ h1 {
     -o-transition: all .4s;
     -ms-transition: all .4s;
     transition: all .4s;
+}
+
+.gray {
+     color: #dfd2ad;
 }
