@@ -329,10 +329,14 @@ label.error{
     background: #ffa708 !important
 }
 .bg-cocoa{
-    background-image: url(../img/backgrounds/bg-cocoa.jpg);
+    background-image: url(../img/backgrounds/bg-cocoa-min.jpg);
     background-size: cover;
     background-position: center;
+    overflow: scroll;
+    outline: none;
 }
+
+
 .placeholder{
     width: 50%;
     float: left;
@@ -351,22 +355,22 @@ label.error{
     color: #33231d;
     font-weight: bold;
 }
+
+/*
+Mobile View
+*/
+
 @media (max-width: 756px) {
     .cocoa_about{
         width: 100%;
     }
 }
-@media only screen and (max-width: 991px) and (min-width: 768px){
-    .navbar>.container .navbar-brand{
-        margin-left: -30px;
-    }
-    .navbar-nav>li>a {
-        padding: 17px 0 15px 15px;
-    }
-    .abt_col, .bg-cocoa {
-        height: 613px;
-    }
-}
+
+/*
+Tablet View
+*/
+
+
 @media only screen and (max-width: 1024px){
     #products .feature-container{
         text-align: center;
@@ -381,23 +385,62 @@ label.error{
     #products .feature-body li{
         list-style: none;
     }
-    .abt_col, .bg-cocoa {
-        height: 600px;
+    .bg-cocoa {
+        height: 100%;
+    }
+    .abt_col {
+        height: auto;
+        min-height: 100%;
     }
 }
-@media only screen and (max-width: 868px){
-    .abt_col, .bg-cocoa {
-        height: 640px;
+
+@media only screen and (max-width: 991px) and (min-width: 768px){
+    .navbar>.container .navbar-brand{
+        margin-left: -30px;
+    }
+    .navbar-nav>li>a {
+        padding: 17px 0 15px 15px;
+    }
+    .bg-cocoa {
+        height: 100%;
+    }
+    .abt_col {
+        height: auto;
+        min-height: 100%;
+    }
+    .placeholder{
+        height:0px;
+        width: 0%;
+        float: left;
     }
 }
+
 @media only screen and (max-width: 868px){
-    .abt_col, .bg-cocoa {
-        height: 640px;
+    .bg-cocoa {
+        height: 100%;
+    }
+    .abt_col {
+        height: auto;
+        min-height: 100%;
+    }
+    .placeholder{
+        height:0px;
+        width: 0%;
+        float: left;
     }
 }
 @media only screen and (max-width: 830px){
-    .abt_col, .bg-cocoa {
-        height: 666px;
+    .bg-cocoa {
+        height: 100%;
+    }
+    .abt_col {
+        height: auto;
+        min-height: 100%;
+    }
+    .placeholder{
+        height:0px;
+        width: 0%;
+        float: left;
     }
 }
 @media only screen and (max-width: 768px){
@@ -406,17 +449,19 @@ label.error{
     }
     .bg-cocoa {
         width: 100%;
-        height: 375px;
+        /*height: 375px;*/
     }
     .abt_col{
-        height: auto;
+        /*height: auto;*/
         padding-bottom: 25px;
-    }
-    .abt_col{
         clear: both;
     }
+    .placeholder{
+        height:0px;
+        width: 0%;
+        float: left;
+    }
 }
-
 
 @media only screen and (max-width: 768px){
     .bg-cocoa{
