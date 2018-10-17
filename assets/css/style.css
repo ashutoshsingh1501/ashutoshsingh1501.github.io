@@ -4,7 +4,8 @@
  * Author Prudhvi Raj*/
 
 body,.jumbotron {
-	background: #bddeff;
+	/*background: #bddeff;*/
+    background:#f4f4f4;
 }
 .card-body{min-height: 320px;background: transparent;}
 .card{box-shadow: none!important;border:none!important;outline: none!important;background: none;}
@@ -19,6 +20,10 @@ body,.jumbotron {
   height: 14px;
   margin-bottom:0;
 }
+.pos_ab{    position: absolute;
+    top: 5%;
+    left: 50px;
+    line-height: 15px;}
 .min_height_blck{min-height:180px;}
 .min_height_blck_1{min-height: 110px;}
 /*.blck_connection,.blck_connection_2  {min-height: 30px;}
@@ -48,7 +53,8 @@ ul{margin-bottom: 0;}
 .rb_block li{background: #43b1f1;}
 /*background: #b8b0f7;*/
 
-.l_block,.m_block,.r_block,.p_block{min-height: 80px;position: inherit;background: rgba(255,255,255,0.8);text-align: center}
+
+.l_block,.m_block,.r_block,.p_block{min-height: 80px;position: inherit;background: rgba(0,0,0,0.5);text-align: center}
 .p_block{min-height: auto!important;background: rgba(255,255,255,1);top:-35px;}
 .rb_block .app{box-shadow: 0 10px 15px rgba(61, 61, 62, 0.05);background: #fff;color:#43b1f1; font-size: 14px!important;width:35px;height: 25px;line-height:22px;margin-left:auto;margin-right:auto;border-radius: 3px;font-weight: bold;margin-top:5%;margin-bottom:5%; }
 .dp_block .app{box-shadow: 0 10px 15px rgba(61, 61, 62, 0.05);background: #fff;color:#3c4a52; font-size: 14px!important;width:35px;height: 25px;line-height:22px;margin-left:auto;margin-right:auto;border-radius: 3px;font-weight: bold;margin-top:5%;margin-bottom:5%; }
@@ -59,7 +65,7 @@ ul{margin-bottom: 0;}
 .p_block-head{    top: -30px;
     position: relative;}
 .p_block_line{
-         min-height: 30px;
+         min-height: 50px;
     border: 1px dashed #3e3b29;
     border-bottom: 0;
     border-top: 0;
@@ -77,7 +83,7 @@ ul{margin-bottom: 0;}
 .dp_block{border: 1px solid #3c4a52;box-shadow: 0 10px 15px rgba(61, 61, 62, 0.05)}
 .rb_block{border: 1px solid #43b1f1;box-shadow: 0 10px 15px rgba(61, 61, 62, 0.05)}
 .pl-5{padding-left:5px!important;}.pr-5{padding-right:5px!important;}
-.bg_blck{z-index:-1;background: url(../img/bg_blockchain_2.jpg);position: absolute;min-height: 310px;
+.bg_blck{z-index:-1;background: url(../img/bg_block_chain.jpg);position: absolute;min-height: 310px;
     top: 19%;left: -0.05%;box-shadow: 0 10px 15px rgba(61, 61, 62, 0.05);background-size: cover;background-position: 50%;}
 
 .bg_blck h3{    
@@ -171,7 +177,8 @@ h4{font-size: 16px!important;text-align: center;}
     border-bottom: none;
     border-right: none;
 }
-.left_ab_bot_sec_3{          position: absolute;
+.left_ab_bot_sec_3{          
+    position: absolute;
     border: 1px dashed #cbd13e;
     min-height: 100px;
     width: 100%;
@@ -183,7 +190,8 @@ h4{font-size: 16px!important;text-align: center;}
     border-bottom: none;
     z-index: 1;
 }
-.left_ab_bot_sec_4{       position: absolute;
+.left_ab_bot_sec_4{       
+    position: absolute;
     border: 1px dashed #d86464;
     min-height: 30px;
     width: 100%;
@@ -207,7 +215,8 @@ h4{font-size: 16px!important;text-align: center;}
     border-bottom: none;
     border-left: none;
 }
-.left_ab_bot_sec_5{       position: absolute;
+.left_ab_bot_sec_5{       
+    position: absolute;
     border: 1px dashed #24b69d;
     min-height: 200px;
     width: 100%;
@@ -322,11 +331,11 @@ h4{font-size: 16px!important;text-align: center;}
   cursor: pointer;
   top: 0;
   left: 0;
-  right: 0;
-  bottom: 0;
-  background-color: #cfd2d6;
+   right: 0;
+   bottom: 0;
+   background-color: #cfd2d6;
   -webkit-transition: .4s;
-  transition: .4s;
+   transition: .4s;
    border-radius: 34px;
 }
 
